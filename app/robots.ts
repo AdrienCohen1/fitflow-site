@@ -11,4 +11,3 @@ export default function robots(): MetadataRoute.Robots {
     sitemap: "https://www.fitflowrx.com/sitemap.xml",
   };
 }
-Same steps: create new file, name it app/robots.ts, paste, commit.
