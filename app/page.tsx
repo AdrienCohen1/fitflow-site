@@ -22,7 +22,11 @@ export default function HomePage() {
         <div className="container">
           <div className="card-grid" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))" }}>
             <div className="card">
-              <div style={{ background: "#e8f3e6", height: 220 }} />
+              <img
+                src="/Tirz%20Syringe%20Green.png"
+                alt="Compounded Tirzepatide vial"
+                style={{ width: "100%", height: 260, objectFit: "cover", display: "block" }}
+              />
               <div className="card-body">
                 <h3>Compounded Tirzepatide</h3>
                 <p className="as-low-as">as low as</p>
@@ -34,7 +38,11 @@ export default function HomePage() {
               </div>
             </div>
             <div className="card">
-              <div style={{ background: "#1f2937", height: 220 }} />
+              <img
+                src="/Sem%20Syringe%20Blue.png"
+                alt="Compounded Semaglutide vial"
+                style={{ width: "100%", height: 260, objectFit: "cover", display: "block" }}
+              />
               <div className="card-body">
                 <h3>Compounded Semaglutide</h3>
                 <p className="as-low-as">as low as</p>
