@@ -1,7 +1,4 @@
 :root {
-  --brand: #0a7d5c;
-  --brand-dark: #065f46;
-  --brand-light: #e6f4ef;
   --black: #0a0a0a;
   --gray-900: #16181d;
   --gray-600: #5b6470;
@@ -20,7 +17,7 @@ body {
   background: var(--white);
 }
 
-a { color: var(--brand); }
+a { color: var(--black); }
 
 .container {
   max-width: 1100px;
@@ -48,7 +45,7 @@ header.site-header {
   font-weight: 800;
   font-size: 22px;
   text-decoration: none;
-  color: var(--gray-900);
+  color: var(--black);
   letter-spacing: -0.02em;
 }
 
@@ -67,10 +64,10 @@ nav.main-nav a {
   color: var(--gray-600);
 }
 
-nav.main-nav a:hover { color: var(--brand); }
+nav.main-nav a:hover { color: var(--black); }
 
 .cta-btn {
-  background: var(--brand);
+  background: var(--black);
   color: #fff;
   padding: 12px 24px;
   border-radius: 999px;
@@ -78,18 +75,17 @@ nav.main-nav a:hover { color: var(--brand); }
   font-weight: 700;
   font-size: 14px;
   display: inline-block;
-  box-shadow: 0 4px 14px rgba(10, 125, 92, 0.28);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: transform 0.15s ease, opacity 0.15s ease;
 }
 
 .cta-btn:hover {
   transform: translateY(-1px);
-  box-shadow: 0 6px 18px rgba(10, 125, 92, 0.36);
+  opacity: 0.88;
 }
 
 .trust-bar {
-  background: var(--brand-dark);
-  color: #eafff5;
+  background: var(--black);
+  color: #fff;
   font-size: 12.5px;
   font-weight: 600;
   letter-spacing: 0.02em;
@@ -101,10 +97,7 @@ main { min-height: 60vh; }
 
 .hero {
   padding: 90px 0 60px;
-  background:
-    radial-gradient(circle at 15% 20%, rgba(10, 125, 92, 0.10), transparent 45%),
-    radial-gradient(circle at 85% 0%, rgba(10, 125, 92, 0.08), transparent 40%),
-    var(--white);
+  background: var(--gray-50);
 }
 
 .hero h1 {
@@ -147,7 +140,7 @@ main { min-height: 60vh; }
 .price {
   font-size: 30px;
   font-weight: 800;
-  color: var(--brand-dark);
+  color: var(--black);
   letter-spacing: -0.02em;
 }
 
@@ -192,7 +185,7 @@ footer h4 {
 footer ul { list-style: none; padding: 0; margin: 0; }
 footer li { margin-bottom: 10px; }
 footer a { color: var(--gray-600); text-decoration: none; }
-footer a:hover { color: var(--brand); }
+footer a:hover { color: var(--black); }
 
 .todo-banner {
   background: #fff7e6;
