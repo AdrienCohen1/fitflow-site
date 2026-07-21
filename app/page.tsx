@@ -25,7 +25,7 @@ export default function HomePage() {
               <img
                 src="/Tirz%20Syringe%20Green.png"
                 alt="Compounded Tirzepatide vial"
-                style={{ width: "100%", height: 260, objectFit: "contain", background: "#e8f3e6", display: "block" }}
+                style={{ width: "100%", height: "auto", display: "block" }}
               />
               <div className="card-body">
                 <h3>Compounded Tirzepatide</h3>
@@ -41,7 +41,7 @@ export default function HomePage() {
               <img
                 src="/Sem%20Syringe%20Blue.png"
                 alt="Compounded Semaglutide vial"
-                style={{ width: "100%", height: 260, objectFit: "contain", background: "#1f2937", display: "block" }}
+                style={{ width: "100%", height: "auto", display: "block" }}
               />
               <div className="card-body">
                 <h3>Compounded Semaglutide</h3>
